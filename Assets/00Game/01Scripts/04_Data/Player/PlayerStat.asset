@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a69a6a91c7ddc2942938089f9c93f4fc, type: 3}
+  m_Name: PlayerStat
+  m_EditorClassIdentifier: 
+  maxHP: 100
+  maxStamina: 100
+  staminaRecovery: 18
+  guardStaminaRecoveryMultiplier: 0.4
+  moveSpeed: 3
+  runSpeedMultiplier: 2
+  runStaminaCostPerSecond: 12
+  rotationSpeed: 720
+  rollForce: 6
+  rollCost: 18
+  rollDuration: 1
+  invincibleTime: 0.4
+  guardBlockAngle: 120
+  guardStaminaCostPerDamage: 1.2
+  guardChipDamageRatio: 0.05
+  parryAngle: 100
+  parryStaminaCost: 12
+  parryStartupDuration: 0.06
+  parryActiveDuration: 0.08
+  parryRecoveryDuration: 0.24
+  attackLibrary: {fileID: 11400000, guid: dbc1188f4ad49e6408f04d3f1feeb0f5, type: 2}
+  attackCombo:
+  - attackName: Attack1_BasicSlash
+    animatorStateName: Attack1
+    damage: 150
+    staminaCost: 10
+    preDelay: 0.42
+    postDelay: 0.6
+    inputWindowStartNormalized: 0.6
+    inputWindowEndNormalized: 0.76
+    startupStartNormalized: 0
+    activeStartNormalized: 0.328
+    activeEndNormalized: 0.432
+    recoveryEndNormalized: 1
+    comboWindowStartNormalized: 0.708
+    comboWindowEndNormalized: 0.76
+    rollCancelStartNormalized: 0.6
+    trackUntilNormalized: 0.15
+    facingLockNormalized: 0.24
+    hasSuperArmor: 0
+    superArmorStartNormalized: 0
+    superArmorEndNormalized: 0
+  - attackName: Attack2_DriveSlash
+    animatorStateName: Attack2
+    damage: 180
+    staminaCost: 12
+    preDelay: 0.47
+    postDelay: 0.5
+    inputWindowStartNormalized: 0.61
+    inputWindowEndNormalized: 0.78
+    startupStartNormalized: 0
+    activeStartNormalized: 0.362
+    activeEndNormalized: 0.479
+    recoveryEndNormalized: 1
+    comboWindowStartNormalized: 0.61
+    comboWindowEndNormalized: 0.78
+    rollCancelStartNormalized: 0.61
+    trackUntilNormalized: 0.18
+    facingLockNormalized: 0.27
+    hasSuperArmor: 0
+    superArmorStartNormalized: 0
+    superArmorEndNormalized: 0
+  - attackName: Attack3_HeavyCleave
+    animatorStateName: Attack3
+    damage: 240
+    staminaCost: 18
+    preDelay: 0.7
+    postDelay: 1.35
+    inputWindowStartNormalized: 0.64
+    inputWindowEndNormalized: 0.8
+    startupStartNormalized: 0
+    activeStartNormalized: 0.458
+    activeEndNormalized: 0.562
+    recoveryEndNormalized: 1
+    comboWindowStartNormalized: 0.64
+    comboWindowEndNormalized: 0.8
+    rollCancelStartNormalized: 0.64
+    trackUntilNormalized: 0.14
+    facingLockNormalized: 0.22
+    hasSuperArmor: 0
+    superArmorStartNormalized: 0
+    superArmorEndNormalized: 0

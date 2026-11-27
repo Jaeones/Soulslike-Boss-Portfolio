@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1053dad8e26f3449b1de5c1bffc945, type: 3}
+  m_Name: EstusFlaskData
+  m_EditorClassIdentifier: 
+  maxUses: 3
+  usePercentHeal: 0
+  healAmount: 250
+  healPercent: 0.35
+  drinkDuration: 2.6
+  healApplyTime: 0.55
+  cooldown: 0.25

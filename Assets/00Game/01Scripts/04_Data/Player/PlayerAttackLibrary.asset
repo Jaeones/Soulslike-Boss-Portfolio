@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: PlayerAttackLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerAttackLibrary
+  comboAttacks:
+  - attackId: Attack_1
+    attackName: Attack_1
+    animatorStateName: Attack1
+    playerHitReactionType: 0
+    damage: 150
+    staminaCost: 10
+    staminaDamage: 12
+    groggyDamage: 5.5
+    poiseDamage: 10
+    startupStartNormalized: 0
+    impactNormalized: 0.093
+    activeStartNormalized: 0.093
+    activeEndNormalized: 0.16
+    recoveryEndNormalized: 0.9
+    comboWindowStartNormalized: 0.572
+    comboWindowEndNormalized: 0.9
+    rollCancelStartNormalized: 0.24
+    trackUntilNormalized: 0.17
+    facingLockNormalized: 0.26
+    hasSuperArmor: 0
+    superArmorStartNormalized: 0
+    superArmorEndNormalized: 0
+    ignoreParry: 0
+    dashDistance: 0
+    dashDuration: 0.01
+    prepareStartSpeed: 1
+    prepareEndSpeed: 1
+    impactSpeed: 1
+    recoverySpeed: 1
+    postAttackWaitMultiplier: 0
+    isHeavyAttack: 0
+    cameraShakeIntensity: 0
+    cameraShakeDuration: 0.08
+    hitStopDuration: 0.05
+    hitStopMultiplier: 1
+  - attackId: Attack_3
+    attackName: Attack_3
+    animatorStateName: Attack3
+    playerHitReactionType: 0
+    damage: 255
+    staminaCost: 18
+    staminaDamage: 28
+    groggyDamage: 30
+    poiseDamage: 24
+    startupStartNormalized: 0
+    impactNormalized: 0.335616
+    activeStartNormalized: 0.30137
+    activeEndNormalized: 0.369863
+    recoveryEndNormalized: 1
+    comboWindowStartNormalized: 0.64
+    comboWindowEndNormalized: 0.8
+    rollCancelStartNormalized: 0.64
+    trackUntilNormalized: 0.14
+    facingLockNormalized: 0.22
+    hasSuperArmor: 0
+    superArmorStartNormalized: 0.22
+    superArmorEndNormalized: 0.6
+    ignoreParry: 0
+    dashDistance: 0
+    dashDuration: 0.1
+    prepareStartSpeed: 1
+    prepareEndSpeed: 1
+    impactSpeed: 1
+    recoverySpeed: 1
+    postAttackWaitMultiplier: 0
+    isHeavyAttack: 1
+    cameraShakeIntensity: 0.08
+    cameraShakeDuration: 0.08
+    hitStopDuration: 0.09
+    hitStopMultiplier: 1.25
